@@ -100,8 +100,8 @@ export default function Navbar() {
 
   
   return (
-   <div className="bg-white dark:bg-slate-800 shadow-md">
-     <div className="navbar container mx-auto   sticky top-0 z-50">
+   <div className="bg-white sticky top-0 z-50 dark:bg-slate-800 shadow-md">
+     <div className="navbar container mx-auto">
 
 <div className="navbar-start">
   <div className="dropdown">
@@ -182,7 +182,7 @@ export default function Navbar() {
       <NavLink
         to="/auth/login"
         className={({ isActive }) =>
-          ` font-medium ${
+          ` font-medium dark:text-white ${
             isActive
               ? " bg-blue-500 px-4 py-2 rounded-md text-white font-semibold"
               : ""
@@ -193,7 +193,7 @@ export default function Navbar() {
       <NavLink
         to="/auth/registration"
         className={({ isActive }) =>
-          ` font-medium ${
+          ` font-medium dark:text-white ${
             isActive
               ? " bg-blue-500 px-4 py-2 rounded-md text-white font-semibold"
               : ""
