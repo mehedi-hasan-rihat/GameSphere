@@ -6,11 +6,10 @@ This project is a dynamic webpage where users can post and read reviews about ga
 ## Technologies
 
 - **Frontend**:
-    - HTML
+    - React
     - CSS
     - JavaScript
 - **Backend**:
-    - Node.js
     - Express.js
 - **Database**:
     - MongoDB
